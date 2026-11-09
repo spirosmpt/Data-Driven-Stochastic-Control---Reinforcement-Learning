@@ -1,0 +1,7 @@
+*.asv
+*.m~
+*.mat
+*.csv
+outputs/
+results/
+.DS_Store
