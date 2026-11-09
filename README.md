@@ -16,7 +16,7 @@ Numerical and neural-network approximations of conditional expectations, togethe
 
 ## Repository layout
 
-- `report/course-report-redacted.pdf` — student-ID-redacted copy of the submitted report with methodology, findings, plots and code appendix
+- Redacted course report (PDF) — included in the separate portfolio ZIP archive supplied in the accompanying ChatGPT conversation; not uploaded to this GitHub repository
 - Source files:
   - `code/p1_data_driven_clipped_a1.m`
   - `code/p1_data_driven_clipped_c1.m`
@@ -49,8 +49,13 @@ The datasets and any large/generated artifacts have deliberately not been added 
 
 The individual script names reflect the report headings for Problems 1–3 and hypotheses A1, A2, C1.
 
-**Source provenance and execution status:** The author confirmed the appendix code was tested. Source was transcribed to separate `.m` files from the PDF; some long lines wrap in the PDF. Preserve the redacted copy of the report as the authoritative reference.
+**Source provenance and execution status:** The author confirmed the appendix code was tested. Source was transcribed to separate `.m` files from the PDF; some long lines wrap in the PDF. Consult the redacted PDF in the separate project archive for original results, figures, and source pagination.
 
 ## Credits
 
-Coursework authored by Spiros Bantis, University of Patras. The report remains the reference for experimental setup and observed results. Refer to the assignment for technical details.
+Coursework authored by Spiros Bantis, University of Patras. The original course report (available in the separately provided project archive) remains the reference for the experimental setup and observed results. Refer to the assignment for technical details.
+
+
+## Report availability
+
+The original coursework report is provided separately as a privacy-redacted PDF in the downloadable project ZIP prepared for this portfolio. Its figures and results have **not** been uploaded to this repository. The source code is available above. The original source was tested by the author, but code transcribed from PDF into standalone MATLAB files has not been independently re-executed in this repository.
