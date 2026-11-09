@@ -1,27 +1,56 @@
-# Data-Driven Stochastic Control
+# Data-Driven Conditional Expectations & Stochastic Control
 
-**MATLAB · Numerical Methods · Machine Learning**
+**MATLAB** · University of Patras · Machine Learning coursework
 
-Experiments studying numerical and learning-based approximations to conditional expectations, value functions, and control in stochastic dynamical systems.
+Numerical and neural-network approximations of conditional expectations, together with value-function estimation and control experiments for a stochastic dynamical system.
 
-## Topics
-- Conditional expectations and numerical integration
-- Data-driven function approximation with neural networks
-- Custom loss functions and Adam optimization
-- Value-function estimation
-- Dynamic programming and stochastic control
+## What this project covers
 
-## Experiment groups
-- **Problem 1:** Numerical and data-driven expectation estimation
-- **Problem 2:** Numerical value functions and action-specific approximations
-- **Problem 3:** Stochastic control and neural approximations
+- conditional expectation
+- numerical integration
+- data-driven neural estimation
+- custom loss functions
+- Adam optimization
+- value functions
+- dynamic programming / stochastic control
 
-## Reproducing the coursework
-The original MATLAB scripts were tested during the assignment. The prepared source archive organizes scripts by problem, method and hypothesis (A1, A2, C1). Run data-generation scripts before any dependent scripts loading intermediate `.mat` files. Depending on the experiment, MATLAB Statistics and Machine Learning Toolbox may be required.
+## Repository layout
 
-Course-generated data and intermediate `.mat` artifacts are not included. Consult the original course report for the methods, results and execution order.
+- `report/course-report-redacted.pdf` — student-ID-redacted copy of the submitted report with methodology, findings, plots and code appendix
+- Source files:
+  - `code/p1_data_driven_clipped_a1.m`
+  - `code/p1_data_driven_clipped_c1.m`
+  - `code/p1_data_driven_mean_a1.m`
+  - `code/p1_data_driven_mean_a2.m`
+  - `code/p1_numerical_clipped_value.m`
+  - `code/p1_numerical_expected_value.m`
+  - `code/p2_action1_data_driven_a1.m`
+  - `code/p2_action1_data_driven_c1.m`
+  - `code/p2_action2_data_driven_a1.m`
+  - `code/p2_action2_data_driven_c1.m`
+  - `code/p2_numerical_value_functions.m`
+  - `code/p2_p3_generate_data.m`
+  - `code/p3_data_driven_a1.m`
+  - `code/p3_data_driven_c1.m`
+  - `code/p3_numerical_control.m`
 
-**Repository scope:** This GitHub repository currently contains the documentation and selected source files. The complete prepared coursework archive (including the redacted report) is available separately; it has not all been committed here.
+## Getting started
 
-## Author
-Spiros Bantis · Electrical & Computer Engineering · University of Patras
+Start with the numerical / data-generation scripts and proceed to the relevant per-method experiments. Scripts generating `.mat` outputs must be run before those loading them. Check the appendix for the original run order.
+
+### Data / software dependencies
+
+- MATLAB functions including `normcdf` (Statistics and Machine Learning Toolbox)
+- Generated or referenced `Set1_Pairs.mat`, `Set2_Pairs.mat` and intermediate result `.mat` files
+
+The datasets and any large/generated artifacts have deliberately not been added to version control.
+
+## Technical notes
+
+The individual script names reflect the report headings for Problems 1–3 and hypotheses A1, A2, C1.
+
+**Source provenance and execution status:** The author confirmed the appendix code was tested. Source was transcribed to separate `.m` files from the PDF; some long lines wrap in the PDF. Preserve the redacted copy of the report as the authoritative reference.
+
+## Credits
+
+Coursework authored by Spiros Bantis, University of Patras. The report remains the reference for experimental setup and observed results. Refer to the assignment for technical details.

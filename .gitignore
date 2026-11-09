@@ -2,6 +2,7 @@
 *.m~
 *.mat
 *.csv
+.DS_Store
+Thumbs.db
 outputs/
 results/
-.DS_Store
