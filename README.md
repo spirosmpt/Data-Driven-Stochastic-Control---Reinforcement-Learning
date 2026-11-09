@@ -21,7 +21,7 @@ The original MATLAB scripts were tested during the assignment. The prepared sour
 
 Course-generated data and intermediate `.mat` artifacts are not included. Consult the original course report for the methods, results and execution order.
 
-**Current repository status:** Documentation initialized. The source code and redacted report are being transferred from the prepared project archive.
+**Repository scope:** This GitHub repository currently contains the documentation and selected source files. The complete prepared coursework archive (including the redacted report) is available separately; it has not all been committed here.
 
 ## Author
 Spiros Bantis · Electrical & Computer Engineering · University of Patras
